@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUsQiplH_OWtHnMb1Nrk31z58OJN009JG-w&usqp=CAU"
+                        alt="" />
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <section>
+        <div class="container-fluid hero text-light">
+            Hero section
+            <p class="text-center fs-1 hero_text">
+                Accomplish your Dream
+                <br />
+                with support of our <br />
+                Expertise
+            </p>
+            <p class="text-center fs-6 hero_subheading">
+                A Group of Highly Experienced and Qualified Experts.
+            </p>
+            <div class="hero_btn text-light text-center my-5">
+                <button class="hero_btn1 mx-5">About Us</button>
+                <button class="hero_btn2">Constact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section id="Products">
+        <div class="lightss">
+            <div class="lamp-container">
+                <img id="lamp" class="lamp" src="./assets//lamp.png" alt="" />
+                <img class="light light2" src="./assets/light.png" alt="" />
+            </div>
+
+            <!-- 2 -->
+            <div>
+                <div class="lamp-container">
+                    <img id="lamp" class="lamp" src="./assets//lamp.png" alt="" />
+                    <img class="light light2" src="./assets/light.png" alt="" />
+                </div>
+            </div>
+            <!-- 3 -->
+            <div>
+                <div class="lamp-container">
+                    <img id="lamp" class="lamp" src="./assets//lamp.png" alt="" />
+                    <img class="light light2" src="./assets/light.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <button id="toggleButton">Toggle Light</button>
+
+        <div>
+            <button id="ac">AC</button>
+            <img class="ac" src="https://pngimg.com/uploads/air_conditioner/air_conditioner_PNG73.png" alt="" />
+            <img class="ac-air ac-air2" src="./assets/Image.png" alt="" />
+        </div>
+    </section>
+
+    <!-- bg -->
+
+    <section id="bg">
+        <!-- <input type="color" id="colorPicker" />
+      <div id="changeColorDiv">Sample Text</div> -->
+
+        <div id="changeColorDiv">
+            <img class="changecolor" src="./assets/laptop.png" alt="" />
+            <img class="changecolor2" src="./assets/phone.png" alt="" />
+        </div>
+        <div class="inputrange">
+            <input type="range" id="colorRange" min="0" max="100" step="1" />
+        </div>
+    </section>
+
+    <!-- form -->
+    <section id="Contacts" class="container-fluid form_section py-5 bg-tan">
+        <p class="fs-1 text-center">Contact Us</p>
+        <div class="d-md-flex justify-content-evenly align-items-center flex-wrap">
+            <address class="address">
+                <p>Office No. 201, Second Floor, Akshar Arcade,</p>
+
+                <p>Opp Memnagar Fire Station, Navrangpura,</p>
+                <p>
+                    Ahmedabad 380014
+                </p>
+                <p>
+                    Phone: +91 9033679439
+                </p>
+                <p>
+                    E-Mail:support@vitebox.com
+                </p>
+            </address>
+            <div class="form_content">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="logo-part">
+                                <img src="https://vitebox.com/assets/images/VB1.png" class="w-50 logo-footer" />
+                                <p>
+                                    Ahmedabad 380014
+                                </p>
+                                <p>
+                                    A Group of Highly Experienced and Qualified Experts.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4">
+                            <h6>About Company</h6>
+                            <p>Standard Service Quality & Simplify The Whole Process.</p>
+                            <a href="#" class="btn-footer"> More Info </a><br />
+                            <a href="#" class="btn-footer"> Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 px-4">
+                            <h6>Help us</h6>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li><a href="#"> Home</a></li>
+                                        <li><a href="#"> About</a></li>
+                                        <li><a href="#"> Service</a></li>
+                                        <li><a href="#"> Team</a></li>
+                                        <li><a href="#"> Help</a></li>
+                                        <li><a href="#"> Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 px-4">
+                                    <ul>
+                                        <li><a href="#"> Cab Faciliy</a></li>
+                                        <li><a href="#"> Fax</a></li>
+                                        <li><a href="#"> Terms</a></li>
+                                        <li><a href="#"> Policy</a></li>
+                                        <li><a href="#"> Refunds</a></li>
+                                        <li><a href="#"> Paypal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Newsletter</h6>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                            <form class="form-footer my-3">
+                                <input type="text" placeholder="search here...." name="search" />
+                                <input type="button" value="Go" />
+                            </form>
+                            <p>© 2017 Vite-Box Assortions LLP. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
