@@ -1,0 +1,385 @@
+body {
+    font-family: "Signika", sans-serif;
+    margin: 0;
+}
+
+.bg-grey {
+    background: #292929;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-collapse a:hover {
+    color: #500fea !important;
+}
+
+.navbar-collapse {
+    text-align: center !important;
+}
+
+/* header */
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.hero {
+    height: 90vh;
+    padding-top: 4rem;
+    background: radial-gradient(circle at 10% 20%,
+            rgba(77, 97, 252, 0.63) 0%,
+            rgb(77, 97, 252) 90%);
+}
+
+.hero_text {
+    margin-top: 10%;
+    margin-bottom: 2rem;
+}
+
+.hero_btns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+}
+
+.hero_btn1,
+.hero_btn2 {
+    height: 30%;
+    background-color: inherit;
+
+    padding: 10px 16px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.hero_btn1:hover,
+.hero_btn2:hover {
+    background-color: white;
+    color: indigo;
+}
+
+.hero_btn1:active,
+.hero_btn2:active {
+    background-color: white;
+    color: indigo;
+}
+
+/* form */
+.form_section {
+    height: 80%;
+    /* background-color: lightgrey; */
+}
+
+.form_content {}
+
+/* footer */
+
+footer {
+    color: grey;
+}
+
+footer p,
+a {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+footer h6 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+
+.btn-footer {
+    color: grey;
+
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+.btn-footer:hover {
+    text-decoration: none;
+}
+
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+/* lights */
+.room {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#Products {
+    background-color: black !important;
+    height: 100vh;
+}
+
+.light2 {
+    display: none;
+}
+
+.lamp-container {
+    position: relative;
+    width: 200px;
+}
+
+.lightss {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.lamp {
+    width: 100px;
+    height: 100px;
+}
+
+.light {
+    position: absolute;
+    bottom: -400px;
+    width: 100px;
+    height: 400px;
+    left: 0px;
+}
+
+.ac {
+    position: absolute;
+    top: 100;
+    left: 35%;
+    width: 300px;
+    z-index: 1;
+}
+
+.ac-air {
+    background-color: white;
+    margin-top: 90px;
+    width: 250px;
+    margin-left: 36%;
+    background: transparent;
+}
+
+.ac-air2 {
+    display: none;
+}
+
+#toggleButton,
+#ac {
+    background-color: grey;
+    border: none;
+    padding: 6px 14px;
+    position: absolute;
+    top: 170%;
+    right: 10%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#toggleButton {
+    margin-right: 4rem;
+}
+
+/* bg */
+#bg {
+    height: 80vh;
+}
+
+.targetElement {}
+
+/* #colorPicker {
+    margin-bottom: 10px;
+  }
+  
+  #changeColorDiv {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px; */
+#colorRange {
+    margin-top: 10px;
+}
+
+.inputrange {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    /* width: 30%; */
+    background-color: whitesmoke;
+}
+
+#changeColorDiv {
+    height: 80%;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.changecolor {
+    background: transparent;
+    width: 200px;
+}
+
+.changecolor2 {
+    /* background: transparent; */
+    width: 200px;
+}
+
+@media (max-width: 1025px) {
+    .ac {
+        position: absolute;
+        top: 100;
+        left: 36%;
+        width: 300px;
+        z-index: 1;
+    }
+
+    .ac-air {
+        background-color: white;
+        margin-top: 90px;
+        width: 250px;
+        margin-left: 38%;
+        background: transparent;
+    }
+
+    .lamp-container {
+        position: relative;
+        width: 100px;
+    }
+}
+
+@media (max-width: 769px) {
+    .ac {
+        position: absolute;
+        top: 100;
+        left: 30%;
+        width: 300px;
+        z-index: 1;
+    }
+
+    .ac-air {
+        background-color: white;
+        margin-top: 90px;
+        width: 250px;
+        margin-left: 34%;
+        background: transparent;
+    }
+
+    .lamp-container {
+        position: relative;
+        width: 100px;
+    }
+}
+
+@media (max-width: 430px) {
+    .ac {
+        position: absolute;
+        top: 100;
+        left: 10%;
+        width: 300px;
+        z-index: 1;
+    }
+
+    .ac-air {
+        background-color: white;
+        margin-top: 90px;
+        width: 250px;
+        margin-left: 16%;
+        background: transparent;
+    }
+
+    .lamp-container {
+        position: relative;
+        width: 100px;
+    }
+}
